@@ -36,6 +36,7 @@ setup(
             'velocity_mirror = tb3_course.velocity_mirror:main',
             'robot_distance = tb3_course.robot_distance:main',
             'leader_follower = tb3_course.leader_follower:main',
+            'trail_follower = tb3_course.leader_follower_path:main',
             'auto_mapper = tb3_course.auto_mapper:main',
         ],
     },

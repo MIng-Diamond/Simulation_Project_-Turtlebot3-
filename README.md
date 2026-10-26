@@ -8,7 +8,7 @@
 
 ## 项目概览
 
-- 课程功能包：`src/tb3_course`（10 个节点 + 双车 launch）
+- 课程功能包：`src/tb3_course`（11 个节点 + 双车 launch）
 - 覆盖教程第二~六节：ROS2 基础、Gazebo、Cartographer SLAM、Nav2、多机器人
 - 作业产物：实验报告、地图、截图、轨迹数据、演示视频
 - 真机环境实测，所有结果来自本机 Gazebo Classic 仿真
@@ -24,7 +24,7 @@
 | Nav2 | 3 个目标全部 `SUCCEEDED`；两圈 8 目标巡逻完成 |
 | 多机器人 | `/TB3_1`、`/TB3_2` 话题/TF 正常；镜像、距离、跟随均有实测 |
 | 镜像/距离 | `scale=0.9` 镜像有效；静止距离 2.820 m；0.5 s 看门狗停车 |
-| Leader-Follower | follower 追到 0.622 m；急转弯切内道，已加 0.45 m 安全停车 |
+| Leader-Follower | 开阔区稳定 0.618 m；穿圆柱阵列 0.55–0.79 m；已加 0.45 m 安全停车 |
 
 ## 演示视频
 
@@ -37,7 +37,9 @@
 | [建图片段](homework/videos/04_mapping.mp4) | Cartographer 建图过程 | 40 s |
 | [完整建图加速版](homework/videos/04_mapping_full.mp4) | 完整一圈，8× 加速 | 29.4 s |
 | [Nav2 导航](homework/videos/05_nav2.mp4) | RViz2 全局路径 + 到达目标 | 20 s |
-| [双车镜像](homework/videos/06_multi_robot.mp4) | `turtlebot3_world` 中 TB3_1 / TB3_2 速度镜像 | 15 s |
+| [双车镜像](homework/videos/06_multi_robot.mp4) | 开环镜像（非协作） | 15 s |
+| [Leader-Follower 开阔区](homework/videos/06_leader_follower.mp4) | 闭环 P 跟随，稳定 0.618 m | 15 s |
+| [Leader-Follower 穿圆柱阵列](homework/videos/06_leader_follower_maze.mp4) | 沿 leader 轨迹绕过 9 个圆柱 | 35 s |
 
 每个视频都有对应的截帧 PNG，已插入 `homework/report/report.md` 的对应位置。
 
@@ -165,6 +167,7 @@ bash stop_tb3.sh
 | `velocity_mirror` | `/TB3_1/cmd_vel` 镜像到 `/TB3_2/cmd_vel` | 6.6 / 6.9 |
 | `robot_distance` | 两车 odom 欧氏距离，发布 `/tb3_distance` | 6.9 |
 | `leader_follower` | 闭环 P 控制器跟随 leader | 6.7 / 6.9 |
+| `trail_follower` | 沿 leader 的 odom 轨迹跟随（穿圆柱阵列） | 6.9 进阶 |
 | `auto_mapper` | 程序化巡航建图（外圈 + 中心走廊） | 4.7 |
 
 查看可执行文件：
@@ -196,8 +199,10 @@ ros2 pkg executables tb3_course
 ## 说明
 
 - 所有实验数据均来自本机实际运行，未使用编造数据。
-- 本仓库未启用 Git LFS：仓库约 15 MB，最大单文件约 3.3 MB，远小于
+- 本仓库未启用 Git LFS：仓库约 25 MB，最大单文件约 7.6 MB，远小于
   GitHub 100 MB 限制；如果后续加入 rosbag 或更大的视频，建议使用
   `git lfs track "*.bag"`。
+- 6.9.5 研究型“多机器人地图融合与协同避障”为调研与方案设计，
+  **未实现代码**；报告中已明确标注完成范围。
 - 代码遵循 `src/tb3_course/LICENSE` 中的 Apache-2.0；报告、视频和截图
   为课程作业产物。

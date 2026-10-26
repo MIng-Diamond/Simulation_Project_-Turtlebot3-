@@ -480,10 +480,6 @@ TB3_1≈(-2.00, -0.50)，TB3_2≈(0.50, -2.00)。
 
 ![两台 TurtleBot3 在 Gazebo 中（TB3_1 / TB3_2）](../screenshots/06_multi_robot.png)
 
-![双车镜像视频截帧（turtlebot3_world）](../videos/06_multi_robot_poster.png)
-
-[▶ 观看双车镜像视频（15 s，turtlebot3_world）](../videos/06_multi_robot.mp4)
-
 #### 2. 运行 velocity_mirror
 
 ```bash
@@ -503,6 +499,10 @@ ros2 run turtlebot3_teleop teleop_keyboard --ros-args -r __ns:=/TB3_1
 侧翻，因此 `velocity_mirror` 增加了 `cmd_timeout=0.5 s` 看门狗，
 测试脚本也在运动结束后显式发布零速度。
 
+![双车镜像视频截帧（turtlebot3_world，开环镜像）](../videos/06_multi_robot_poster.png)
+
+[▶ 观看双车镜像视频（15 s，开环镜像，非协作）](../videos/06_multi_robot.mp4)
+
 #### 3. 订阅两台 /odom，输出欧氏距离
 
 ```bash
@@ -521,7 +521,12 @@ TB3_1=(-2.00, -0.50)  TB3_2=(0.50, -2.00)  distance=2.906 m
 #### 4. 进阶：闭环 Leader-Follower
 
 ```bash
+# 简单 P 跟随（开阔区）
 ros2 run tb3_course leader_follower --ros-args \
+  -p use_sim_time:=true -p follow_distance:=0.6
+
+# 沿 leader 轨迹跟随（穿圆柱阵列）
+ros2 run tb3_course trail_follower --ros-args \
   -p use_sim_time:=true -p follow_distance:=0.6
 ```
 
@@ -533,13 +538,37 @@ ros2 run tb3_course leader_follower --ros-args \
 3. 方位误差大时原地转，误差小时用 P 控制边走边修正；
 4. leader odom 超时则停车。
 
-实测（空世界，`follow_distance=0.6`）：follower 从 (0.65, -2.00)
+空世界控制测试（`follow_distance=0.6`）：follower 从 (0.65, -2.00)
 出发，约 20 s 后接近到 (3.65, -0.52)，与静止 leader (4.30, -0.50)
 的距离为 **0.622 m**。leader 以 `v=0.1 m/s, w=0.4 rad/s` 画半径
-0.25 m 的小圈时，简单 P 控制器会“切内道”，距离一度降到 0.36 m。
-本轮数据是在加入安全停车之前测的；之后在代码中增加了
-`min_distance=0.45 m`，距离小于该值时 follower 直接停车，避免
-碰撞。更平滑的做法是加入 leader 速度前馈，或改用纯跟踪/Nav2 跟随。
+0.25 m 的小圈时，简单 P 控制器会“切内道”，距离一度降到 0.36 m；
+因此增加了 `min_distance=0.45 m` 安全停车。
+
+标准世界复测（视频，`turtlebot3_world`）：先把 leader 开到
+(0.37, -1.49)，follower 从 (0.50, -2.00) 接近；leader 以
+0.08 m/s 前进后，follower 稳定在后方 **0.618 m**（`robot_distance`
+日志）。视频里可以看到 follower 跟随 leader 移动。
+
+上面的简单 P 控制在开阔区有效，但转弯会切内道。为了让 follower 真正
+穿过 `turtlebot3_world` 的圆柱阵列，新增 `trail_follower` 节点：
+
+1. 记录 leader 的 odom 轨迹（每 0.05 m 一个 breadcrumb）；
+2. 目标点取“沿轨迹落后 `follow_distance`”的点，而不是 leader 当前
+   位姿后方的直线点；
+3. follower 沿 leader 已经验证过的安全路径行驶，转弯时自然沿轨迹绕行；
+4. 保留 `min_distance=0.45 m` 和前方 `/scan` 安全停车。
+
+实测（`turtlebot3_world`，视频）：leader 由 `auto_mapper` 沿
+`(1.65,-1.65) → (1.65,0.55) → (0.55,0.55) → ...` 行进，follower
+沿 leader 轨迹跟随，距离保持在 **0.55–0.79 m**，成功绕过圆柱阵列。
+
+![Leader-Follower 穿越圆柱阵列截帧](../videos/06_leader_follower_maze_poster.png)
+
+[▶ 观看 Leader-Follower 穿越圆柱阵列（35 s，turtlebot3_world）](../videos/06_leader_follower_maze.mp4)
+
+![开阔区闭环跟随截帧（对照）](../videos/06_leader_follower_poster.png)
+
+[▶ 观看开阔区闭环跟随（15 s，对照）](../videos/06_leader_follower.mp4)
 
 #### 5. 研究型：多机器人地图融合与协同避障
 
@@ -557,6 +586,10 @@ ros2 run tb3_course leader_follower --ros-args \
 的多机器人 SLAM。Cartographer 支持多 trajectory，但跨机器人
 地图融合不是“多启动几个 SLAM 节点”就能完成；本课程把它作为
 研究型拓展。
+
+> **完成范围说明**：本节是“研究型”调研与方案设计，**没有实现**
+> 多机器人地图融合或协同避障代码。若课程要求实现级作业，需要
+> 额外的多机建图/通信框架，可作为后续工作。
 
 ---
 
@@ -615,7 +648,7 @@ leader 速度前馈或改用纯跟踪/Nav2 跟随；这属于进阶改进方向�
 | 正方形 | `tb3_course/move_square.py`、`square_odom.py` |
 | 建图辅助 | `tb3_course/auto_mapper.py` |
 | 导航 | `tb3_course/nav_goal.py`、`patrol.py` |
-| 多机器人 | `tb3_course/velocity_mirror.py`、`robot_distance.py`、`leader_follower.py` |
+| 多机器人 | `tb3_course/velocity_mirror.py`、`robot_distance.py`、`leader_follower.py`、`leader_follower_path.py` |
 | 双车 launch | `launch/multi_robot_2.launch.py` |
 | 轨迹记录/绘图 | `homework/tools/record_trajectory.py`、`plot_trajectory.py`、`plot_map.py`、`plot_paths.py` |
 | 地图 | `homework/maps/tb3_world.pgm`、`.yaml`、`.png` |
@@ -623,8 +656,8 @@ leader 速度前馈或改用纯跟踪/Nav2 跟随；这属于进阶改进方向�
 | 3.9 截图/视频 | `screenshots/03_square_odom.png`、`videos/03_square_odom.mp4` |
 | 4.7 截图/视频 | `screenshots/04_cartographer_rviz.png`、`videos/04_mapping.mp4`、`videos/04_mapping_full.mp4` |
 | 5.9 截图/视频/数据 | `screenshots/05_nav2_goals.png`、`05_nav2_paths.png`、`05_nav2_odom.png`、`videos/05_nav2.mp4`、`data/nav_paths.csv`、`nav_odom.csv` |
-| 6.9 截图/视频/数据 | `screenshots/06_multi_robot.png`、`videos/06_multi_robot.mp4`、`data/velocity_mirror.log`、`robot_distance.log` |
+| 6.9 截图/视频/数据 | `screenshots/06_multi_robot.png`、`videos/06_multi_robot.mp4`、`videos/06_leader_follower_maze.mp4`、`data/velocity_mirror.log`、`robot_distance.log`、`leader_follower.log` |
 | 圆轨迹/视频 | `data/circle_r0.5.csv`、`circle_r2.0.csv`、`videos/02_circle.mp4` |
 | 实验日志 | `data/move_square_open_loop.log`、`square_odom_closed_loop.log`、`nav_goal_A/B/C.log`、`patrol_two_loops.log`、`velocity_mirror.log`、`robot_distance.log`、`leader_follower.log`、`auto_mapper.log` |
-| 视频 | `homework/videos/`（画圆、闭环正方形、建图片段、完整建图加速版、Nav2 导航、双车镜像） |
+| 视频 | `homework/videos/`（画圆、闭环正方形、建图片段、完整建图加速版、Nav2 导航、双车镜像、闭环 Leader-Follower、穿圆柱阵列跟随） |
 | 录屏工具 | `homework/tools/record_window.py` |
