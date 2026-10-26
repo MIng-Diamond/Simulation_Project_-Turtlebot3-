@@ -37,6 +37,7 @@
 | [建图片段](homework/videos/04_mapping.mp4) | Cartographer 建图过程 | 40 s |
 | [完整建图加速版](homework/videos/04_mapping_full.mp4) | 完整一圈，8× 加速 | 29.4 s |
 | [Nav2 导航](homework/videos/05_nav2.mp4) | RViz2 全局路径 + 到达目标 | 20 s |
+| [双车镜像](homework/videos/06_multi_robot.mp4) | `turtlebot3_world` 中 TB3_1 / TB3_2 速度镜像 | 15 s |
 
 每个视频都有对应的截帧 PNG，已插入 `homework/report/report.md` 的对应位置。
 

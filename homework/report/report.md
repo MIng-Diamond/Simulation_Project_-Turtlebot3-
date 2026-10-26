@@ -480,6 +480,10 @@ TB3_1≈(-2.00, -0.50)，TB3_2≈(0.50, -2.00)。
 
 ![两台 TurtleBot3 在 Gazebo 中（TB3_1 / TB3_2）](../screenshots/06_multi_robot.png)
 
+![双车镜像视频截帧（turtlebot3_world）](../videos/06_multi_robot_poster.png)
+
+[▶ 观看双车镜像视频（15 s，turtlebot3_world）](../videos/06_multi_robot.mp4)
+
 #### 2. 运行 velocity_mirror
 
 ```bash
@@ -619,8 +623,8 @@ leader 速度前馈或改用纯跟踪/Nav2 跟随；这属于进阶改进方向�
 | 3.9 截图/视频 | `screenshots/03_square_odom.png`、`videos/03_square_odom.mp4` |
 | 4.7 截图/视频 | `screenshots/04_cartographer_rviz.png`、`videos/04_mapping.mp4`、`videos/04_mapping_full.mp4` |
 | 5.9 截图/视频/数据 | `screenshots/05_nav2_goals.png`、`05_nav2_paths.png`、`05_nav2_odom.png`、`videos/05_nav2.mp4`、`data/nav_paths.csv`、`nav_odom.csv` |
-| 6.9 截图/数据 | `screenshots/06_multi_robot.png` |
+| 6.9 截图/视频/数据 | `screenshots/06_multi_robot.png`、`videos/06_multi_robot.mp4`、`data/velocity_mirror.log`、`robot_distance.log` |
 | 圆轨迹/视频 | `data/circle_r0.5.csv`、`circle_r2.0.csv`、`videos/02_circle.mp4` |
 | 实验日志 | `data/move_square_open_loop.log`、`square_odom_closed_loop.log`、`nav_goal_A/B/C.log`、`patrol_two_loops.log`、`velocity_mirror.log`、`robot_distance.log`、`leader_follower.log`、`auto_mapper.log` |
-| 视频 | `homework/videos/`（画圆、闭环正方形、建图片段、完整建图加速版、Nav2 导航） |
+| 视频 | `homework/videos/`（画圆、闭环正方形、建图片段、完整建图加速版、Nav2 导航、双车镜像） |
 | 录屏工具 | `homework/tools/record_window.py` |
