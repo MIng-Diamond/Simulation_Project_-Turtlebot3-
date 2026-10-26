@@ -13,6 +13,20 @@
 - 作业产物：实验报告、地图、截图、轨迹数据、演示视频
 - 真机环境实测，所有结果来自本机 Gazebo Classic 仿真
 
+## 教程
+
+完整、手把手的从零到一教程在 [`tutorial/`](tutorial/README.md)：
+
+1. [ROS2 基础与第一个节点](tutorial/01_ros2_basics.md)
+2. [Gazebo、机器人模型与运动控制](tutorial/02_gazebo_robot.md)
+3. [Cartographer SLAM 与建图](tutorial/03_slam.md)
+4. [Navigation2 自主导航](tutorial/04_nav2.md)
+5. [多机器人通信与协作](tutorial/05_multi_robot.md)
+6. [工程化、调试与 Capstone 项目](tutorial/06_engineering_capstone.md)
+
+教程以本仓库代码为案例，包含原理、动手实验、代码解读、常见坑、
+练习和自测题，目标是让你能独立实现项目，而不是复制粘贴。
+
 ## 主要结果
 
 | 实验 | 结果 |
@@ -78,6 +92,7 @@ turtlebot3_ws/
 │   ├── data/                    # 轨迹 CSV、路径 CSV、实验日志
 │   ├── tools/                   # 录屏、绘图、轨迹记录、md->docx
 │   └── rviz/                    # 自定义 RViz 配置
+├── tutorial/                    # 从零到一完整教程
 ├── tb3_env.sh                   # 每个终端先 source
 ├── install_tb3.sh               # apt 安装 TB3
 ├── build_tb3.sh                 # colcon build
