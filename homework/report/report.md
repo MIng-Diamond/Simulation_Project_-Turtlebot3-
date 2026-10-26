@@ -354,15 +354,24 @@ AMCL 最终位置约 (3.72, 1.25)，与目标 C 的偏差在 goal tolerance 内�
 `homework/screenshots/05_nav2_odom.png`，RViz2 截图见
 `homework/screenshots/05_nav2_goals.png`。
 
+**穿圆柱阵列测试（视频）**：从 (0, 0) 出发，依次发送
+`(1.45, 0.00) → (2.55, 1.05) → (3.65, 2.15)`，三个目标全部
+`status=4`。机器人从左侧进入中间走廊，穿过 9 个圆柱之间，
+从右上方退出；RViz 中可以看到全局路径、代价地图和机器人的运动。
+
 ![Nav2 RViz2 运行截图（含全局路径和代价地图）](../screenshots/05_nav2_goals.png)
 
 ![Nav2 全局路径记录（26 次重规划）](../screenshots/05_nav2_paths.png)
 
 ![Nav2 里程计轨迹](../screenshots/05_nav2_odom.png)
 
-![Nav2 导航视频截帧（到达目标，Feedback: reached）](../videos/05_nav2_poster.png)
+![Nav2 穿圆柱阵列截帧（机器人经过中央走廊）](../videos/05_nav2_maze_poster.png)
 
-[▶ 观看 Nav2 导航视频（20 s）](../videos/05_nav2.mp4)
+[▶ 观看 Nav2 穿越圆柱阵列（45 s，三个目标）](../videos/05_nav2_maze.mp4)
+
+![Nav2 短距离目标截帧（对照）](../videos/05_nav2_poster.png)
+
+[▶ 观看 Nav2 短距离目标（20 s，对照）](../videos/05_nav2.mp4)
 
 #### 2. 修改 nav_goal.py，支持更多参数并输出剩余距离
 
@@ -655,7 +664,7 @@ leader 速度前馈或改用纯跟踪/Nav2 跟随；这属于进阶改进方向�
 | 2.9 截图 | `screenshots/02_circle_radius_compare.png`、`02_rqt_graph.png` |
 | 3.9 截图/视频 | `screenshots/03_square_odom.png`、`videos/03_square_odom.mp4` |
 | 4.7 截图/视频 | `screenshots/04_cartographer_rviz.png`、`videos/04_mapping.mp4`、`videos/04_mapping_full.mp4` |
-| 5.9 截图/视频/数据 | `screenshots/05_nav2_goals.png`、`05_nav2_paths.png`、`05_nav2_odom.png`、`videos/05_nav2.mp4`、`data/nav_paths.csv`、`nav_odom.csv` |
+| 5.9 截图/视频/数据 | `screenshots/05_nav2_goals.png`、`05_nav2_paths.png`、`05_nav2_odom.png`、`videos/05_nav2_maze.mp4`、`videos/05_nav2.mp4`、`data/nav_paths.csv`、`nav_odom.csv` |
 | 6.9 截图/视频/数据 | `screenshots/06_multi_robot.png`、`videos/06_multi_robot.mp4`、`videos/06_leader_follower_maze.mp4`、`data/velocity_mirror.log`、`robot_distance.log`、`leader_follower.log` |
 | 圆轨迹/视频 | `data/circle_r0.5.csv`、`circle_r2.0.csv`、`videos/02_circle.mp4` |
 | 实验日志 | `data/move_square_open_loop.log`、`square_odom_closed_loop.log`、`nav_goal_A/B/C.log`、`patrol_two_loops.log`、`velocity_mirror.log`、`robot_distance.log`、`leader_follower.log`、`auto_mapper.log` |

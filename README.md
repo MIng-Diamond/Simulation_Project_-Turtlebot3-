@@ -21,7 +21,7 @@
 | 开环正方形 | 0.36 m 边长，闭合误差约 **0.344 m** |
 | 闭环正方形（`/odom`） | 0.40 m 边长，闭合误差约 **0.005 m** |
 | Cartographer 地图 | 124 × 115 @ 0.05 m，自由 55.3%，占据 5.6%，六边形墙和 9 个圆柱闭合 |
-| Nav2 | 3 个目标全部 `SUCCEEDED`；两圈 8 目标巡逻完成 |
+| Nav2 | 3 个目标全部 `SUCCEEDED`；两圈 8 目标巡逻完成；穿圆柱阵列 3 目标全部成功 |
 | 多机器人 | `/TB3_1`、`/TB3_2` 话题/TF 正常；镜像、距离、跟随均有实测 |
 | 镜像/距离 | `scale=0.9` 镜像有效；静止距离 2.820 m；0.5 s 看门狗停车 |
 | Leader-Follower | 开阔区稳定 0.618 m；穿圆柱阵列 0.55–0.79 m；已加 0.45 m 安全停车 |
@@ -36,7 +36,8 @@
 | [闭环正方形](homework/videos/03_square_odom.mp4) | Gazebo，0.4 m 边长 | 25 s |
 | [建图片段](homework/videos/04_mapping.mp4) | Cartographer 建图过程 | 40 s |
 | [完整建图加速版](homework/videos/04_mapping_full.mp4) | 完整一圈，8× 加速 | 29.4 s |
-| [Nav2 导航](homework/videos/05_nav2.mp4) | RViz2 全局路径 + 到达目标 | 20 s |
+| [Nav2 短距离目标](homework/videos/05_nav2.mp4) | 单个短目标（对照） | 20 s |
+| [Nav2 穿圆柱阵列](homework/videos/05_nav2_maze.mp4) | 三个目标穿过 9 个圆柱，全部 SUCCEEDED | 45 s |
 | [双车镜像](homework/videos/06_multi_robot.mp4) | 开环镜像（非协作） | 15 s |
 | [Leader-Follower 开阔区](homework/videos/06_leader_follower.mp4) | 闭环 P 跟随，稳定 0.618 m | 15 s |
 | [Leader-Follower 穿圆柱阵列](homework/videos/06_leader_follower_maze.mp4) | 沿 leader 轨迹绕过 9 个圆柱 | 35 s |
@@ -199,7 +200,7 @@ ros2 pkg executables tb3_course
 ## 说明
 
 - 所有实验数据均来自本机实际运行，未使用编造数据。
-- 本仓库未启用 Git LFS：仓库约 25 MB，最大单文件约 7.6 MB，远小于
+- 本仓库未启用 Git LFS：仓库约 27 MB，最大单文件约 7.6 MB，远小于
   GitHub 100 MB 限制；如果后续加入 rosbag 或更大的视频，建议使用
   `git lfs track "*.bag"`。
 - 6.9.5 研究型“多机器人地图融合与协同避障”为调研与方案设计，
