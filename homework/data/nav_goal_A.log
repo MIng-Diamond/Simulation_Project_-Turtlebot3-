@@ -1,0 +1,8 @@
+[INFO] [1793013718.908174839] [nav_goal]: Send goal: x=1.20, y=0.00, yaw=0.00
+[INFO] [1793013719.632739694] [nav_goal]: Goal accepted.
+[INFO] [1793013719.633720726] [nav_goal]: Distance remaining: 0.25 m
+[INFO] [1793013720.642828364] [nav_goal]: Distance remaining: 0.94 m
+[INFO] [1793013721.653095393] [nav_goal]: Distance remaining: 0.72 m
+[INFO] [1793013722.663047535] [nav_goal]: Distance remaining: 0.49 m
+[INFO] [1793013723.672735633] [nav_goal]: Distance remaining: 0.29 m
+[INFO] [1793013723.902904739] [nav_goal]: Navigation finished, status=4

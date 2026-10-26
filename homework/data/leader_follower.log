@@ -1,0 +1,136 @@
+[INFO] [1793015121.985084088] [leader_follower]: leader_follower started.
+[INFO] [1793015122.691287979] [leader_follower]: leader=(4.30,-0.50) follower=(0.65,-2.00) target=(3.70,-0.50) rho=3.40 alpha=0.46
+[INFO] [1793015123.691491164] [leader_follower]: leader=(4.30,-0.50) follower=(0.80,-1.96) target=(3.70,-0.50) rho=3.25 alpha=0.08
+[INFO] [1793015124.692181881] [leader_follower]: leader=(4.30,-0.50) follower=(0.96,-1.89) target=(3.70,-0.50) rho=3.07 alpha=0.01
+[INFO] [1793015125.693218250] [leader_follower]: leader=(4.30,-0.50) follower=(1.12,-1.81) target=(3.70,-0.50) rho=2.89 alpha=0.00
+[INFO] [1793015126.693453766] [leader_follower]: leader=(4.30,-0.50) follower=(1.28,-1.73) target=(3.70,-0.50) rho=2.71 alpha=0.00
+[INFO] [1793015127.694225781] [leader_follower]: leader=(4.30,-0.50) follower=(1.44,-1.65) target=(3.70,-0.50) rho=2.53 alpha=0.00
+[INFO] [1793015128.793347751] [leader_follower]: leader=(4.30,-0.50) follower=(1.62,-1.56) target=(3.70,-0.50) rho=2.33 alpha=0.00
+[INFO] [1793015129.794083641] [leader_follower]: leader=(4.30,-0.50) follower=(1.78,-1.48) target=(3.70,-0.50) rho=2.15 alpha=0.00
+[INFO] [1793015130.794334267] [leader_follower]: leader=(4.30,-0.50) follower=(1.93,-1.39) target=(3.70,-0.50) rho=1.98 alpha=0.00
+[INFO] [1793015131.795302451] [leader_follower]: leader=(4.30,-0.50) follower=(2.10,-1.31) target=(3.70,-0.50) rho=1.79 alpha=0.00
+[INFO] [1793015132.795510384] [leader_follower]: leader=(4.30,-0.50) follower=(2.26,-1.23) target=(3.70,-0.50) rho=1.61 alpha=0.00
+[INFO] [1793015133.795984865] [leader_follower]: leader=(4.30,-0.50) follower=(2.42,-1.15) target=(3.70,-0.50) rho=1.43 alpha=0.00
+[INFO] [1793015134.796079968] [leader_follower]: leader=(4.30,-0.50) follower=(2.58,-1.07) target=(3.70,-0.50) rho=1.25 alpha=0.00
+[INFO] [1793015135.796691914] [leader_follower]: leader=(4.30,-0.50) follower=(2.74,-0.98) target=(3.70,-0.50) rho=1.07 alpha=0.00
+[INFO] [1793015136.796939257] [leader_follower]: leader=(4.30,-0.50) follower=(2.90,-0.90) target=(3.70,-0.50) rho=0.89 alpha=0.00
+[INFO] [1793015137.797256990] [leader_follower]: leader=(4.30,-0.50) follower=(3.06,-0.82) target=(3.70,-0.50) rho=0.72 alpha=0.00
+[INFO] [1793015138.798547683] [leader_follower]: leader=(4.30,-0.50) follower=(3.22,-0.74) target=(3.70,-0.50) rho=0.53 alpha=0.00
+[INFO] [1793015139.798888466] [leader_follower]: leader=(4.30,-0.50) follower=(3.38,-0.66) target=(3.70,-0.50) rho=0.35 alpha=0.00
+[INFO] [1793015140.799596132] [leader_follower]: leader=(4.30,-0.50) follower=(3.54,-0.58) target=(3.70,-0.50) rho=0.17 alpha=0.00
+[INFO] [1793015141.799695603] [leader_follower]: leader=(4.30,-0.50) follower=(3.65,-0.52) target=(3.70,-0.50) rho=0.05 alpha=-0.02
+[INFO] [1793015142.801189222] [leader_follower]: leader=(4.30,-0.50) follower=(3.67,-0.51) target=(3.70,-0.50) rho=0.02 alpha=-0.01
+[INFO] [1793015143.801419051] [leader_follower]: leader=(4.30,-0.50) follower=(3.67,-0.51) target=(3.70,-0.50) rho=0.02 alpha=-0.00
+[INFO] [1793015144.801826517] [leader_follower]: leader=(4.30,-0.50) follower=(3.67,-0.51) target=(3.70,-0.50) rho=0.02 alpha=-0.00
+[INFO] [1793015145.901142016] [leader_follower]: leader=(4.30,-0.50) follower=(3.67,-0.51) target=(3.70,-0.50) rho=0.02 alpha=-0.00
+[INFO] [1793015146.901653375] [leader_follower]: leader=(4.30,-0.50) follower=(3.67,-0.51) target=(3.70,-0.50) rho=0.02 alpha=-0.00
+[INFO] [1793015147.904141196] [leader_follower]: leader=(4.30,-0.50) follower=(3.67,-0.51) target=(3.70,-0.50) rho=0.02 alpha=0.00
+[INFO] [1793015148.904836616] [leader_follower]: leader=(4.30,-0.50) follower=(3.67,-0.51) target=(3.70,-0.50) rho=0.02 alpha=-0.00
+[INFO] [1793015149.905128600] [leader_follower]: leader=(4.30,-0.50) follower=(3.67,-0.51) target=(3.70,-0.50) rho=0.02 alpha=-0.00
+[INFO] [1793015150.905726198] [leader_follower]: leader=(4.30,-0.50) follower=(3.67,-0.51) target=(3.70,-0.50) rho=0.02 alpha=-0.00
+[INFO] [1793015151.906414529] [leader_follower]: leader=(4.30,-0.50) follower=(3.67,-0.51) target=(3.70,-0.50) rho=0.02 alpha=-0.00
+[INFO] [1793015153.006986410] [leader_follower]: leader=(4.30,-0.50) follower=(3.67,-0.51) target=(3.70,-0.50) rho=0.02 alpha=-0.00
+[INFO] [1793015154.007041861] [leader_follower]: leader=(4.30,-0.50) follower=(3.67,-0.51) target=(3.70,-0.50) rho=0.02 alpha=-0.00
+[INFO] [1793015155.106446514] [leader_follower]: leader=(4.30,-0.50) follower=(3.67,-0.51) target=(3.70,-0.50) rho=0.02 alpha=-0.00
+[INFO] [1793015156.106702263] [leader_follower]: leader=(4.30,-0.50) follower=(3.67,-0.51) target=(3.70,-0.50) rho=0.02 alpha=-0.00
+[INFO] [1793015157.107269926] [leader_follower]: leader=(4.36,-0.49) follower=(3.69,-0.51) target=(3.78,-0.64) rho=0.17 alpha=-1.07
+[INFO] [1793015158.108558579] [leader_follower]: leader=(4.45,-0.45) follower=(3.76,-0.49) target=(3.98,-0.82) rho=0.39 alpha=-1.25
+[INFO] [1793015159.108944106] [leader_follower]: leader=(4.52,-0.37) follower=(3.80,-0.49) target=(4.22,-0.90) rho=0.58 alpha=-0.80
+[INFO] [1793015160.109183010] [leader_follower]: leader=(4.55,-0.28) follower=(3.87,-0.48) target=(4.47,-0.88) rho=0.72 alpha=-0.66
+[INFO] [1793015161.109189099] [leader_follower]: leader=(4.54,-0.18) follower=(3.94,-0.48) target=(4.71,-0.76) rho=0.82 alpha=-0.43
+[INFO] [1793015162.110429741] [leader_follower]: leader=(4.49,-0.10) follower=(4.06,-0.47) target=(4.87,-0.56) rho=0.81 alpha=-0.13
+[INFO] [1793015163.110516839] [leader_follower]: leader=(4.42,-0.03) follower=(4.16,-0.45) target=(4.95,-0.31) rho=0.80 alpha=-0.18
+[INFO] [1793015164.110800965] [leader_follower]: leader=(4.32,-0.00) follower=(4.28,-0.41) target=(4.92,-0.06) rho=0.73 alpha=0.04
+[INFO] [1793015165.111050637] [leader_follower]: leader=(4.23,-0.02) follower=(4.37,-0.34) target=(4.80,0.17) rho=0.66 alpha=0.09
+[INFO] [1793015166.111646671] [leader_follower]: leader=(4.14,-0.06) follower=(4.47,-0.22) target=(4.59,0.33) rho=0.56 alpha=0.25
+[INFO] [1793015167.111964728] [leader_follower]: leader=(4.11,-0.10) follower=(4.51,-0.05) target=(4.48,0.38) rho=0.43 alpha=0.11
+[INFO] [1793015168.112411940] [leader_follower]: leader=(4.11,-0.10) follower=(4.50,0.12) target=(4.48,0.38) rho=0.26 alpha=0.02
+[INFO] [1793015169.113235869] [leader_follower]: leader=(4.11,-0.10) follower=(4.49,0.29) target=(4.48,0.38) rho=0.09 alpha=0.00
+[INFO] [1793015170.114268454] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015171.114808980] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015172.114942217] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015173.115006816] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015174.116129182] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015175.116560243] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015176.116591265] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015177.117357630] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015178.117674870] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015179.118647399] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015180.118741978] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015181.120157853] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015182.219179052] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015183.219283210] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015184.219463374] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015185.219845951] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015186.221755379] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015187.221956295] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015188.222675385] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015189.223521663] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015190.223971715] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015191.224274966] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015192.224783573] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015193.324305080] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015194.325121888] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015195.325685414] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015196.326251554] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015197.326562748] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015198.327176650] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015199.327692155] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015200.426860655] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015201.427206907] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015202.428332816] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015203.428971603] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015204.430599131] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015205.431069823] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015206.431781731] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015207.432157266] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015208.432632074] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015209.531387362] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015210.532058965] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015211.532250375] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015212.532541148] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015213.533100755] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015214.534223732] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015215.534302060] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015216.534938447] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015217.535376744] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015218.535541606] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015219.536038224] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015220.536487030] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015221.536831772] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015222.636351478] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015223.638261703] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015224.638490938] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015225.738733269] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015226.740209697] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015227.740363765] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+[INFO] [1793015228.741476155] [leader_follower]: leader=(4.11,-0.10) follower=(4.48,0.35) target=(4.48,0.38) rho=0.02 alpha=0.00
+Traceback (most recent call last):
+  File "/home/mingseed/turtlebot3_ws/build/tb3_course/tb3_course/leader_follower.py", line 155, in main
+    self.pub.publish(cmd)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+    executor.spin_once()
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 812, in spin_once
+    self._spin_once_impl(timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 801, in _spin_once_impl
+    handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 784, in wait_for_ready_callbacks
+    return next(self._cb_iter)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 685, in _wait_for_ready_callbacks
+    raise ExternalShutdownException()
+rclpy.executors.ExternalShutdownException
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mingseed/turtlebot3_ws/install/tb3_course/lib/tb3_course/leader_follower", line 33, in <module>
+    sys.exit(load_entry_point('tb3-course', 'console_scripts', 'leader_follower')())
+  File "/home/mingseed/turtlebot3_ws/build/tb3_course/tb3_course/leader_follower.py", line 159, in main
+    f'target=({target_x:.2f},{target_y:.2f}) rho={rho:.2f} '
+  File "/home/mingseed/turtlebot3_ws/build/tb3_course/tb3_course/leader_follower.py", line 89, in stop
+    def stop(self):
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/publisher.py", line 70, in publish
+    self.__publisher.publish(msg)
+rclpy._rclpy_pybind11.RCLError: Failed to publish: publisher's context is invalid, at ./src/rcl/publisher.c:389
+
+[exited with code 144]

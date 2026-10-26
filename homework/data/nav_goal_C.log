@@ -1,0 +1,13 @@
+[INFO] [1793013755.377818410] [nav_goal]: Waiting for NavigateToPose action server...
+[INFO] [1793013756.009568236] [nav_goal]: Send goal: x=3.65, y=1.60, yaw=1.57
+[INFO] [1793013756.010729803] [nav_goal]: Goal accepted.
+[INFO] [1793013756.012029667] [nav_goal]: Distance remaining: 0.27 m
+[INFO] [1793013757.021669617] [nav_goal]: Distance remaining: 1.79 m
+[INFO] [1793013758.031609932] [nav_goal]: Distance remaining: 1.47 m
+[INFO] [1793013759.031765824] [nav_goal]: Distance remaining: 1.34 m
+[INFO] [1793013760.041701465] [nav_goal]: Distance remaining: 1.14 m
+[INFO] [1793013761.051377051] [nav_goal]: Distance remaining: 0.92 m
+[INFO] [1793013762.051377087] [nav_goal]: Distance remaining: 0.74 m
+[INFO] [1793013763.061569267] [nav_goal]: Distance remaining: 0.59 m
+[INFO] [1793013764.071755303] [nav_goal]: Distance remaining: 0.39 m
+[INFO] [1793013764.871686256] [nav_goal]: Navigation finished, status=4

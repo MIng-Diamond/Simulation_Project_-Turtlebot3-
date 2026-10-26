@@ -1,0 +1,24 @@
+[INFO] [1793012949.219735011] [auto_mapper]: AutoMapper loaded 19 waypoints.
+[INFO] [1793012949.315417127] [auto_mapper]: Start pose: x=-2.00, y=-0.50, yaw=0.00
+[INFO] [1793012951.915715527] [auto_mapper]: Waypoint 1/19 done, next=(-1.65, -1.65)
+[INFO] [1793012961.422206386] [auto_mapper]: Waypoint 2/19 done, next=(1.65, -1.65)
+[INFO] [1793012987.736264810] [auto_mapper]: Waypoint 3/19 done, next=(1.65, 1.65)
+[INFO] [1793013013.850244737] [auto_mapper]: Waypoint 4/19 done, next=(-1.65, 1.65)
+[INFO] [1793013039.965336120] [auto_mapper]: Waypoint 5/19 done, next=(-1.65, 0.55)
+[INFO] [1793013049.070178450] [auto_mapper]: Waypoint 6/19 done, next=(-0.55, 0.55)
+[INFO] [1793013058.175359912] [auto_mapper]: Waypoint 7/19 done, next=(0.55, 0.55)
+[INFO] [1793013066.680336804] [auto_mapper]: Waypoint 8/19 done, next=(0.55, 0.00)
+[INFO] [1793013071.582247984] [auto_mapper]: Waypoint 9/19 done, next=(0.55, -0.55)
+[INFO] [1793013075.785657865] [auto_mapper]: Waypoint 10/19 done, next=(0.00, -0.55)
+[INFO] [1793013080.587394462] [auto_mapper]: Waypoint 11/19 done, next=(-0.55, -0.55)
+[INFO] [1793013084.790164176] [auto_mapper]: Waypoint 12/19 done, next=(-0.55, 0.00)
+[INFO] [1793013089.592486330] [auto_mapper]: Waypoint 13/19 done, next=(-0.55, 0.55)
+[INFO] [1793013093.795338472] [auto_mapper]: Waypoint 14/19 done, next=(1.65, 0.55)
+[INFO] [1793013111.403993246] [auto_mapper]: Waypoint 15/19 done, next=(1.65, -0.55)
+[INFO] [1793013120.510272861] [auto_mapper]: Waypoint 16/19 done, next=(-1.65, -0.55)
+[INFO] [1793013146.624155120] [auto_mapper]: Waypoint 17/19 done, next=(-1.65, 0.55)
+[INFO] [1793013155.628207439] [auto_mapper]: Waypoint 18/19 done, next=(-1.65, -0.50)
+[INFO] [1793013165.834562638] [auto_mapper]: Route done, spinning 360 deg ...
+[INFO] [1793013174.839376496] [auto_mapper]: Mapping tour finished.
+
+[exited with code 144]

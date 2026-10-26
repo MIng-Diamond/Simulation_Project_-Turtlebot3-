@@ -1,0 +1,11 @@
+[INFO] [1793014607.838390060] [patrol]: Loop 1/2, goal 1/4: (0.35, 0.00)
+[INFO] [1793014609.463090385] [patrol]: Loop 1/2, goal 2/4: (3.65, 0.00)
+[INFO] [1793014625.724844753] [patrol]: Loop 1/2, goal 3/4: (3.65, 2.15)
+[INFO] [1793014636.386314749] [patrol]: Loop 1/2, goal 4/4: (0.35, 2.15)
+[INFO] [1793014652.248593812] [patrol]: Loop 2/2, goal 1/4: (0.35, 0.00)
+[INFO] [1793014666.821190659] [patrol]: Loop 2/2, goal 2/4: (3.65, 0.00)
+[INFO] [1793014682.283421261] [patrol]: Loop 2/2, goal 3/4: (3.65, 2.15)
+[INFO] [1793014692.845235363] [patrol]: Loop 2/2, goal 4/4: (0.35, 2.15)
+[INFO] [1793014708.606811667] [patrol]: Patrol finished.
+
+[exited with code 0]

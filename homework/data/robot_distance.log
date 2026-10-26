@@ -1,0 +1,85 @@
+[INFO] [1793015283.436211688] [robot_distance]: Waiting for /TB3_1/odom and /TB3_2/odom ...
+[INFO] [1793015283.437368712] [robot_distance]: Waiting for both odom topics ...
+[INFO] [1793015283.727744478] [robot_distance]: TB3_1=(-2.00, -0.50)  TB3_2=(0.50, -2.00)  distance=2.915 m
+[INFO] [1793015284.728199013] [robot_distance]: TB3_1=(-2.00, -0.50)  TB3_2=(0.50, -2.00)  distance=2.915 m
+[INFO] [1793015285.728186259] [robot_distance]: TB3_1=(-2.00, -0.50)  TB3_2=(0.50, -2.00)  distance=2.915 m
+[INFO] [1793015286.728016040] [robot_distance]: TB3_1=(-2.00, -0.50)  TB3_2=(0.50, -2.00)  distance=2.915 m
+[INFO] [1793015287.728253951] [robot_distance]: TB3_1=(-2.00, -0.50)  TB3_2=(0.50, -2.00)  distance=2.915 m
+[INFO] [1793015288.729237266] [robot_distance]: TB3_1=(-2.00, -0.50)  TB3_2=(0.50, -2.00)  distance=2.915 m
+[INFO] [1793015289.729103376] [robot_distance]: TB3_1=(-2.00, -0.50)  TB3_2=(0.50, -2.00)  distance=2.915 m
+[INFO] [1793015290.731104120] [robot_distance]: TB3_1=(-2.00, -0.50)  TB3_2=(0.50, -2.00)  distance=2.915 m
+[INFO] [1793015291.730861288] [robot_distance]: TB3_1=(-2.00, -0.50)  TB3_2=(0.50, -2.00)  distance=2.915 m
+[INFO] [1793015292.733438420] [robot_distance]: TB3_1=(-1.97, -0.50)  TB3_2=(0.52, -2.00)  distance=2.913 m
+[INFO] [1793015293.733562269] [robot_distance]: TB3_1=(-1.87, -0.50)  TB3_2=(0.62, -2.00)  distance=2.905 m
+[INFO] [1793015294.734093265] [robot_distance]: TB3_1=(-1.77, -0.50)  TB3_2=(0.65, -2.00)  distance=2.849 m
+[INFO] [1793015295.733879160] [robot_distance]: TB3_1=(-1.74, -0.50)  TB3_2=(0.65, -2.00)  distance=2.820 m
+[INFO] [1793015296.736146453] [robot_distance]: TB3_1=(-1.74, -0.50)  TB3_2=(0.65, -2.00)  distance=2.820 m
+[INFO] [1793015297.736178111] [robot_distance]: TB3_1=(-1.74, -0.50)  TB3_2=(0.65, -2.00)  distance=2.820 m
+[INFO] [1793015298.736089749] [robot_distance]: TB3_1=(-1.74, -0.50)  TB3_2=(0.65, -2.00)  distance=2.820 m
+[INFO] [1793015299.739514577] [robot_distance]: TB3_1=(-1.74, -0.50)  TB3_2=(0.65, -2.00)  distance=2.820 m
+[INFO] [1793015300.738887208] [robot_distance]: TB3_1=(-1.74, -0.50)  TB3_2=(0.65, -2.00)  distance=2.820 m
+[INFO] [1793015301.740489265] [robot_distance]: TB3_1=(-1.74, -0.50)  TB3_2=(0.65, -2.00)  distance=2.820 m
+[INFO] [1793015302.740300904] [robot_distance]: TB3_1=(-1.74, -0.50)  TB3_2=(0.65, -2.00)  distance=2.820 m
+[INFO] [1793015303.740544533] [robot_distance]: TB3_1=(-1.74, -0.50)  TB3_2=(0.65, -2.00)  distance=2.820 m
+[INFO] [1793015304.740977465] [robot_distance]: TB3_1=(-1.74, -0.50)  TB3_2=(0.65, -2.00)  distance=2.820 m
+[INFO] [1793015305.741838971] [robot_distance]: TB3_1=(-1.74, -0.50)  TB3_2=(0.65, -2.00)  distance=2.820 m
+[INFO] [1793015306.742414498] [robot_distance]: TB3_1=(-1.74, -0.50)  TB3_2=(0.65, -2.00)  distance=2.820 m
+[INFO] [1793015307.743026594] [robot_distance]: TB3_1=(-1.74, -0.50)  TB3_2=(0.65, -2.00)  distance=2.820 m
+[INFO] [1793015308.743819768] [robot_distance]: TB3_1=(-1.74, -0.50)  TB3_2=(0.65, -2.00)  distance=2.820 m
+[INFO] [1793015309.744047742] [robot_distance]: TB3_1=(-1.74, -0.50)  TB3_2=(0.65, -2.00)  distance=2.820 m
+[INFO] [1793015310.744105653] [robot_distance]: TB3_1=(-1.74, -0.50)  TB3_2=(0.65, -2.00)  distance=2.820 m
+[INFO] [1793015311.744084174] [robot_distance]: TB3_1=(-1.74, -0.50)  TB3_2=(0.65, -2.00)  distance=2.820 m
+[INFO] [1793015312.743891821] [robot_distance]: TB3_1=(-1.74, -0.50)  TB3_2=(0.65, -2.00)  distance=2.820 m
+[INFO] [1793015313.744107623] [robot_distance]: TB3_1=(-1.74, -0.50)  TB3_2=(0.65, -2.00)  distance=2.820 m
+[INFO] [1793015314.745642848] [robot_distance]: TB3_1=(-1.74, -0.50)  TB3_2=(0.65, -2.00)  distance=2.820 m
+[INFO] [1793015315.745178803] [robot_distance]: TB3_1=(-1.74, -0.50)  TB3_2=(0.65, -2.00)  distance=2.820 m
+[INFO] [1793015316.746514924] [robot_distance]: TB3_1=(-1.74, -0.50)  TB3_2=(0.65, -2.00)  distance=2.820 m
+[INFO] [1793015317.746114548] [robot_distance]: TB3_1=(-1.74, -0.50)  TB3_2=(0.65, -2.00)  distance=2.820 m
+[INFO] [1793015318.746560583] [robot_distance]: TB3_1=(-1.74, -0.50)  TB3_2=(0.65, -2.00)  distance=2.820 m
+[INFO] [1793015319.748325770] [robot_distance]: TB3_1=(-1.74, -0.50)  TB3_2=(0.65, -2.00)  distance=2.820 m
+[INFO] [1793015320.748384512] [robot_distance]: TB3_1=(-1.74, -0.50)  TB3_2=(0.65, -2.00)  distance=2.820 m
+[INFO] [1793015321.749165422] [robot_distance]: TB3_1=(-1.74, -0.50)  TB3_2=(0.65, -2.00)  distance=2.820 m
+[INFO] [1793015322.749107426] [robot_distance]: TB3_1=(-1.74, -0.50)  TB3_2=(0.65, -2.00)  distance=2.820 m
+[INFO] [1793015323.751047461] [robot_distance]: TB3_1=(-1.74, -0.50)  TB3_2=(0.65, -2.00)  distance=2.820 m
+[INFO] [1793015324.750953911] [robot_distance]: TB3_1=(-1.74, -0.50)  TB3_2=(0.65, -2.00)  distance=2.820 m
+[INFO] [1793015325.751210782] [robot_distance]: TB3_1=(-1.74, -0.50)  TB3_2=(0.65, -2.00)  distance=2.820 m
+[INFO] [1793015326.751166612] [robot_distance]: TB3_1=(-1.74, -0.50)  TB3_2=(0.65, -2.00)  distance=2.820 m
+[INFO] [1793015327.751089401] [robot_distance]: TB3_1=(-1.74, -0.50)  TB3_2=(0.65, -2.00)  distance=2.820 m
+[INFO] [1793015328.753158648] [robot_distance]: TB3_1=(-1.74, -0.50)  TB3_2=(0.65, -2.00)  distance=2.820 m
+[INFO] [1793015329.754099757] [robot_distance]: TB3_1=(-1.74, -0.50)  TB3_2=(0.65, -2.00)  distance=2.820 m
+[INFO] [1793015330.754094274] [robot_distance]: TB3_1=(-1.74, -0.50)  TB3_2=(0.65, -2.00)  distance=2.820 m
+[INFO] [1793015331.755181113] [robot_distance]: TB3_1=(-1.74, -0.50)  TB3_2=(0.65, -2.00)  distance=2.820 m
+[INFO] [1793015332.755171420] [robot_distance]: TB3_1=(-1.74, -0.50)  TB3_2=(0.65, -2.00)  distance=2.820 m
+[INFO] [1793015333.755617184] [robot_distance]: TB3_1=(-1.74, -0.50)  TB3_2=(0.65, -2.00)  distance=2.820 m
+[INFO] [1793015334.755952548] [robot_distance]: TB3_1=(-1.74, -0.50)  TB3_2=(0.65, -2.00)  distance=2.820 m
+
+[exited with code 144]
+Traceback (most recent call last):
+  File "/home/mingseed/turtlebot3_ws/build/tb3_course/tb3_course/robot_distance.py", line 82, in main
+    rclpy.spin(node)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+    executor.spin_once()
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 812, in spin_once
+    self._spin_once_impl(timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 801, in _spin_once_impl
+    handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 784, in wait_for_ready_callbacks
+    return next(self._cb_iter)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 685, in _wait_for_ready_callbacks
+    raise ExternalShutdownException()
+rclpy.executors.ExternalShutdownException
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mingseed/turtlebot3_ws/install/tb3_course/lib/tb3_course/robot_distance", line 33, in <module>
+    sys.exit(load_entry_point('tb3-course', 'console_scripts', 'robot_distance')())
+  File "/home/mingseed/turtlebot3_ws/build/tb3_course/tb3_course/robot_distance.py", line 87, in main
+    rclpy.shutdown()
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 130, in shutdown
+    _shutdown(context=context)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/utilities.py", line 58, in shutdown
+    return context.shutdown()
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/context.py", line 102, in shutdown
+    self.__context.shutdown()
+rclpy._rclpy_pybind11.RCLError: failed to shutdown: rcl_shutdown already called on the given context, at ./src/rcl/init.c:241

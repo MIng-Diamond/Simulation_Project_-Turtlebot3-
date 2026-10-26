@@ -1,0 +1,30 @@
+[INFO] [1793015280.742245257] [velocity_mirror]: Mirroring /TB3_1/cmd_vel -> /TB3_2/cmd_vel, scale=0.90, cmd_timeout=0.50s
+[INFO] [1793015294.030221471] [velocity_mirror]: Leader cmd timeout, follower stopped.
+[INFO] [1793015296.130162616] [velocity_mirror]: Leader cmd timeout, follower stopped.
+Traceback (most recent call last):
+  File "/home/mingseed/turtlebot3_ws/build/tb3_course/tb3_course/velocity_mirror.py", line 66, in main
+    rclpy.spin(node)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+    executor.spin_once()
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 812, in spin_once
+    self._spin_once_impl(timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 801, in _spin_once_impl
+    handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 784, in wait_for_ready_callbacks
+    return next(self._cb_iter)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 685, in _wait_for_ready_callbacks
+    raise ExternalShutdownException()
+rclpy.executors.ExternalShutdownException
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mingseed/turtlebot3_ws/install/tb3_course/lib/tb3_course/velocity_mirror", line 33, in <module>
+    sys.exit(load_entry_point('tb3-course', 'console_scripts', 'velocity_mirror')())
+  File "/home/mingseed/turtlebot3_ws/build/tb3_course/tb3_course/velocity_mirror.py", line 70, in main
+    node.pub.publish(Twist())
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/publisher.py", line 70, in publish
+    self.__publisher.publish(msg)
+rclpy._rclpy_pybind11.RCLError: Failed to publish: publisher's context is invalid, at ./src/rcl/publisher.c:389
+
+[exited with code 144]
